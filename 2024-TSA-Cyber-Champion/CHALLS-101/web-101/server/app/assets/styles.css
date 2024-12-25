@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial;
+}
+
+header a {
+	color:#fff;
+	font-size:24px;
+}
+
+header {
+	font-weight: bold;
+	max-width:100%;
+	height:60px;
+	background-color:#333;
+	color:#fff;
+	line-height:60px;
+	padding-left:2%;
+}
+
+body {
+	background-color:#fafafa;
+}
+
+header ul li {
+	padding-right: 30px;
+	height:50px;
+	float:left;
+	list-style:none;
+}
+
+header ul li:hover {
+	color:#555;
+}
+
+section {
+	padding-top: 2%;
+	width:100%;
+	min-height:400px;
+}
+
+section p, table, h2 {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+section p {
+	 text-align: justify;
+}
+
+table ul li {
+	color:#555;
+	font-size:30px;
+	padding-right:64%;
+}
+
+div a {
+	color:#555;
+	font-size:21px;
+	padding-left:0.5%;
+	font-family:arial;
+	text-decoration:none;
+}
+
+div a:hover {
+	color:black;
+}
+
+table ul li:hover {
+	color:black;
+}
+
+div {
+	padding-left:1%;
+}
+
+div font {
+	font-size:19;
+	font-family:arial;
+}
+
+footer {
+	width:100%;
+	height:50px;
+	background-color:#333;
+	color:#fff;
+	line-height:50px;
+	text-align:center;
+	position:absolute;
+	bottom:0;
+}
+
+.team {
+	padding-top: 2%;
+}
+
+.tim {
+    margin:auto;
+    object-fit: cover;
+	clear: both;
+	display: table;
+}
+
+.team img {
+	width: 45%;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 5px;
+  margin: auto;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	padding: 1%;
+}
+
+.team p {
+	text-align: center;
+	font-weight: bold;
+}
+
+#nama {
+	font-size: 20px;
+}
+
+#nim {
+	padding-top: 5px;
+	font-size: 18px;
+}
+
+.col-md {
+	float: left;
+	flex: 0 0 50%;
+	max-width: 50%;
+	position: relative;
+	box-sizing: border-box;
+    min-height: 1px;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.container {
+	display: flex;
+	max-width: 100%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.btn {
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	border: 2px solid #555555;
+}
+
+.btn:hover {
+	background-color: #555555;
+	color: white;
+}

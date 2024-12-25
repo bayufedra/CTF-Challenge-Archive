@@ -1,0 +1,18 @@
+services:
+  web-101:
+    build:
+      context: web-101/server/
+      dockerfile: Dockerfile
+    image: web-101:web
+    ports:
+      - "20000:80"
+    restart: always
+
+  pwn-101:
+    build:
+      context: pwn-101/server/
+      dockerfile: Dockerfile
+    image: pwn-101:pwn
+    ports:
+      - "20001:20001"
+    restart: always

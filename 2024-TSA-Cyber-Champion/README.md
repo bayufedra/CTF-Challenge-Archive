@@ -1,0 +1,47 @@
+# TSA Cyber Champion 2024
+
+### Competition Information
+- Format Flag: `TSA{FLAG}`
+- Date: 9-10 November
+- Time: 15 Hours
+- Challenge Category:
+  - Web
+    - PIC: Dimas (TCP1P)
+    - Challenge List:
+      - Eksploitasi Kerentanan XSS v2
+        - Port: 23218
+        - Port: 7719
+      - File Not Found v2
+        - Port: 51669
+      - New Gadget
+        - Port: 9141
+  - Forensic
+    - PIC: Faqih (Hanasuru)
+    - Challenge List:
+      - eavesdropped
+      - ppppppppp
+      - matryoshka
+  - Crypto
+    - PIC: Imam (Merricx)
+    - Challenge list:
+      - zkrsa
+        - Port: 30001
+      - cryptomata
+        - Port: 30002
+      - zeronium
+        - Port: 30003
+  - Reverse
+    - PIC: Aimar (TCP1P)
+    - Challenge List:
+      - Ditto
+      - How Sweet
+      - Bubble Gum (Coming Soon)
+  - Pwn
+    - PIC: Fauzan (Lychnobyte)
+    - Challenge List:
+      - What are we cooking, chef?
+        - Port: 20038
+      - Vibe check list
+        - Port: 20048
+      - Vibe check list v2
+        - Port: 20058

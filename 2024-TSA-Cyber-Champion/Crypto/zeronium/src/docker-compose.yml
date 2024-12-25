@@ -1,0 +1,8 @@
+services:
+  rom:
+    build: .
+    container_name: crypto-rom
+    ports:
+      - target: 5000
+        published: 30003
+        protocol: tcp

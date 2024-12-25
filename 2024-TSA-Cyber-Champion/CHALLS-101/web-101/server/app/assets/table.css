@@ -1,0 +1,32 @@
+table { 
+  width: 750; 
+  border-collapse: collapse; 
+  margin:20px auto;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+
+/*change background*/  
+tr:hover {
+  background-color: #ddd;
+}
+
+th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+
+td, th { 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  text-align: center; 
+  font-size: 18px;
+}
+
+td.title {
+  text-align: left;
+}

@@ -1,0 +1,8 @@
+services:
+  cryptomata:
+    build: .
+    container_name: crypto-cryptomata
+    ports:
+      - target: 5000
+        published: 30002
+        protocol: tcp

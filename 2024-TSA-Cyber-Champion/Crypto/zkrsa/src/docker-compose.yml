@@ -1,0 +1,8 @@
+services:
+  zkrsa:
+    build: .
+    container_name: crypto-zkrsa
+    ports:
+      - target: 5000
+        published: 30001
+        protocol: tcp
