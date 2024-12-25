@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
+    <script type="module">
+        import { index } from "./build/release.js";
+        function handleUrlHashChange() {
+            const hash = window.location.hash.substring(1);
+            const result = index(hash);
+            document.body.innerHTML = result;
+        }
+        window.addEventListener("hashchange", handleUrlHashChange);
+        handleUrlHashChange();
+    </script>
+
+</head>
+
+<body></body>
+
+</html>

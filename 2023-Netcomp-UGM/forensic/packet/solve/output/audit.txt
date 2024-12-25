@@ -1,0 +1,56 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Jan  6 02:47:18 2024
+Invocation: foremost img.png 
+Output directory: /mnt/c/Users/Attacker/Documents/NetcompUGM/netcomp-ugm-2023/forensic/packet/solve/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: img.png
+Start: Sat Jan  6 02:47:18 2024
+Length: 6 KB (6752 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	      163 B 	          0 	  (50 x 50)
+1:	00000000_1.png 	      180 B 	        192 	  (50 x 50)
+2:	00000000_2.png 	      178 B 	        400 	  (50 x 50)
+3:	00000001.png 	      181 B 	        608 	  (50 x 50)
+4:	00000001_1.png 	      173 B 	        816 	  (50 x 50)
+5:	00000001_2.png 	      172 B 	       1008 	  (50 x 50)
+6:	00000002.png 	      180 B 	       1200 	  (50 x 50)
+7:	00000002_1.png 	      173 B 	       1408 	  (50 x 50)
+8:	00000003.png 	      186 B 	       1600 	  (50 x 50)
+9:	00000003_1.png 	      180 B 	       1808 	  (50 x 50)
+10:	00000003_2.png 	      163 B 	       2016 	  (50 x 50)
+11:	00000004.png 	      181 B 	       2208 	  (50 x 50)
+12:	00000004_1.png 	      177 B 	       2416 	  (50 x 50)
+13:	00000005.png 	      163 B 	       2624 	  (50 x 50)
+14:	00000005_1.png 	      184 B 	       2816 	  (50 x 50)
+15:	00000005_2.png 	      153 B 	       3024 	  (50 x 50)
+16:	00000006.png 	      183 B 	       3200 	  (50 x 50)
+17:	00000006_1.png 	      177 B 	       3408 	  (50 x 50)
+18:	00000007.png 	      175 B 	       3616 	  (50 x 50)
+19:	00000007_1.png 	      180 B 	       3808 	  (50 x 50)
+20:	00000007_2.png 	      153 B 	       4016 	  (50 x 50)
+21:	00000008.png 	      178 B 	       4192 	  (50 x 50)
+22:	00000008_1.png 	      166 B 	       4400 	  (50 x 50)
+23:	00000008_2.png 	      181 B 	       4592 	  (50 x 50)
+24:	00000009.png 	      173 B 	       4800 	  (50 x 50)
+25:	00000009_1.png 	      163 B 	       4992 	  (50 x 50)
+26:	00000010.png 	      184 B 	       5184 	  (50 x 50)
+27:	00000010_1.png 	      166 B 	       5392 	  (50 x 50)
+28:	00000010_2.png 	      153 B 	       5584 	  (50 x 50)
+29:	00000011.png 	      171 B 	       5760 	  (50 x 50)
+30:	00000011_1.png 	      180 B 	       5952 	  (50 x 50)
+31:	00000012.png 	      170 B 	       6160 	  (50 x 50)
+32:	00000012_1.png 	      179 B 	       6352 	  (50 x 50)
+33:	00000012_2.png 	      179 B 	       6560 	  (50 x 50)
+Finish: Sat Jan  6 02:47:18 2024
+
+34 FILES EXTRACTED
+	
+png:= 34
+------------------------------------------------------------------
+
+Foremost finished at Sat Jan  6 02:47:18 2024

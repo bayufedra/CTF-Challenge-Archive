@@ -1,0 +1,9 @@
+version: '3'
+services:
+  pwn2:
+    build:
+      context: .
+    working_dir: /home/ctf
+    container_name: pwn2
+    ports:
+      - "2022:2022"

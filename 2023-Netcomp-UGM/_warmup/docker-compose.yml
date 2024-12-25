@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+  web:
+    build:
+      context: Web/server/
+      dockerfile: Dockerfile
+    container_name: Web
+    ports:
+      - "5001:80"
+    volumes:
+      - ./Web/server/src:/var/www/html
+
+  pwn:
+    build:
+      context: Pwn/server/
+      dockerfile: Dockerfile
+    container_name: pwn
+    ports:
+      - "5002:5002"

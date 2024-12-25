@@ -1,0 +1,4 @@
+*.o
+
+logs/*
+!logs/.gitkeep

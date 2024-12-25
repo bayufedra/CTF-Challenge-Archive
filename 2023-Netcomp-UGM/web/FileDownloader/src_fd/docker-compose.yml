@@ -1,0 +1,9 @@
+version: '3'
+services:
+  php-apache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: file_downloader
+    ports:
+      - "10001:80"
